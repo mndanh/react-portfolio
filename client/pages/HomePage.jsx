@@ -78,7 +78,7 @@ const handleMouseLeave = () => {
 
       <div className="divider"></div> {/* Divider between sections */}
 
-      <section className="projects-section">
+      <section id="projects" className="projects-section">
         <h2>My Projects</h2>
         <div className="projects-container">
           {/* Each project will be displayed as a card */}
@@ -114,7 +114,7 @@ const handleMouseLeave = () => {
 
       <div className="divider"></div>
 
-      <section className="about-section">
+      <section id="about" className="about-section">
         <h2>DAN HEER</h2>
         <div className="about-content">
           <img src={profileImage} alt="Dan Heer" className="profile-image" />
@@ -155,7 +155,7 @@ const handleMouseLeave = () => {
 
       <div className="divider"></div>
 
-      <section className="contact-section">
+      <section id="contact" className="contact-section">
         <h2>CONTACT ME</h2>
         <div className="contact-info">
           <div className="contact-item">

@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Header } from './components';
+import { Header, Footer } from './components';
 import { HomePage } from './pages/'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -17,6 +17,7 @@ export default function App() {
             </Routes>
           </div>
         </div>
+        <Footer />
       </BrowserRouter>
   );
-}
+} 
