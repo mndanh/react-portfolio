@@ -4,7 +4,7 @@ import profileImage from '../src/assets/pictures/profile.jpg';
 import '../App.css';
 import cssIcon from '../src/assets/icons/css.svg';
 import expressIcon from '../src/assets/icons/express.svg';
-import githubIcon from '../src/assets/icons/github.svg';
+import github2Icon from '../src/assets/icons/github2.svg';
 import handlebarsIcon from '../src/assets/icons/handlebars.svg';
 import mongodbIcon from '../src/assets/icons/mongodb.svg';
 import htmlIcon from '../src/assets/icons/html.svg';
@@ -42,7 +42,6 @@ const handleSubmit = (e) => {
     setFormErrors('All fields are required.');
     return;
     }
-// Simulate email sending (you would replace this with actual email-sending code)
 console.log('Sending email to mndanh@gmail.com...');
     setFormSubmitted(true);
     setFormErrors('');
@@ -76,7 +75,7 @@ const handleMouseLeave = () => {
         </div>
       </div>
 
-      <div className="divider"></div> {/* Divider between sections */}
+      <div className="divider"></div>
 
       <section id="projects" className="projects-section">
         <h2>My Projects</h2>
@@ -108,7 +107,7 @@ const handleMouseLeave = () => {
           <img src={nodeIcon} alt="Node" className="icon" />
           <img src={jqueryIcon} alt="jQuery" className="icon" />
           <img src={handlebarsIcon} alt="handlebars" className="icon" />
-          <img src={githubIcon} alt="GitHub" className="icon" />
+          <img src={github2Icon} alt="GitHub" className="icon" />
         </div>
       </section>
 
