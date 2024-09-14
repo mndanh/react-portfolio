@@ -22,6 +22,7 @@ body {
   justify-content: center;
   gap: 40px;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .contact-item {
@@ -211,21 +212,9 @@ body {
   transform: scale(1.2);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .projects-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .project-card {
-    width: 90%;
-  }
-}
-
 /* Icons section */
 .icons-section {
-  background-color: rgb(70, 63, 63);
+  background-color: rgb(95, 81, 81);
   padding: 20px 0;
 }
 
@@ -236,6 +225,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  flex-wrap: wrap;
 }
 
 .icon {
@@ -277,19 +267,6 @@ button, .nav {
   width: 100%;
 }
 
-/* .sidebar {
-  width: 25%;
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  position: relative;
-  top: 0;
-} */
-
 .form-group {
   width: 100%;
 }
@@ -299,18 +276,6 @@ button, .nav {
   min-height: 100vh;
   background-color: #181818;
 }
-
-/* .sidebar-container {
-  width: 25%;
-  border-right: 1px solid #333;
-  padding: 20px;
-  background-color: #242424;
-  position: fixed;
-  top: 60px;
-  bottom: 0;
-  overflow-y: auto;
-  color: #f1f1f1;
-} */
 
 button, .nav {
   width: 100%;
@@ -323,18 +288,6 @@ button, .nav {
   color: #f1f1f1;
   overflow-y: auto;
   height: 100%; 
-  /* height: this might adjust the contents ability to scroll, need to check/play with */
-}
-
-.sidebar-container a,
-.content-container a {
-  color: #1e90ff;
-  text-decoration: none;
-}
-
-.sidebar-container a:hover,
-.content-container a:hover {
-  color: #ff6347;
 }
 
 button {
@@ -398,4 +351,33 @@ input::placeholder {
 
 .social-icon:hover {
   transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  .icons-container {
+    justify-content: center; /* Center icons for mobile */
+    gap: 15px; /* Add space between icons */
+  }
+
+  .icon {
+    width: 40px; /* Reduce icon size for smaller screens */
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon {
+    width: 30px; /* Further reduce icon size for very small screens */
+    height: 30px;
+  }
 }
