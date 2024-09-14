@@ -16,6 +16,7 @@ import reactIcon from '../src/assets/icons/react.svg';
 import pinIcon from '../src/assets/icons/location-pin.svg';
 import phoneIcon from '../src/assets/icons/cell-phone.svg';
 import mailIcon from '../src/assets/icons/email.svg';
+import Projects from '../components/Projects';
 
 
 export default function HomePage(){
@@ -77,20 +78,8 @@ const handleMouseLeave = () => {
 
       <div className="divider"></div>
 
-      <section id="projects" className="projects-section">
-        <h2>My Projects</h2>
-        <div className="projects-container">
-          {/* Each project will be displayed as a card */}
-          <div className="project-card">
-            <h3>Project Title 1</h3>
-            <p>Short description of the project.</p>
-          </div>
-          <div className="project-card">
-            <h3>Project Title 2</h3>
-            <p>Short description of the project.</p>
-          </div>
-          {/* Add more project cards as needed */}
-        </div>
+      <section id="projects">
+        <Projects />
       </section>
 
       <div className="divider"></div>
