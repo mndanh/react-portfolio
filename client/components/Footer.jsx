@@ -1,6 +1,5 @@
 import React from 'react';
-import github2Icon from '../src/assets/icons/github2.svg';
-import linkedinIcon from '../src/assets/icons/linkedin.svg';
+import { github2Icon, linkedinIcon } from '../src/assets/icons';
 import '../App.css';
 
 export default function Footer() {

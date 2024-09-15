@@ -1,20 +1,18 @@
 import React from 'react';
 import '../App.css';
-import easterggsImg from '../src/assets/pictures/eastereggs.JPG';
-import notetakerImg from '../src/assets/pictures/notetaker.JPG';
-import github2Icon from '../src/assets/icons/github2.svg';
-import liveIcon from '../src/assets/icons/liveicon.svg';
+import { eastereggs, notetaker } from '../src/assets/pictures';
+import { github2Icon, liveIcon } from '../src/assets/icons';
 
 const projects = [
   {
-    image: easterggsImg,
+    image: eastereggs,
     title: "Eastereggs",
     description: "An application built with...",
     liveLink: "https://eastereggs.onrender.com/",
     github2Link: "https://github.com/lothylg/eastereggs"
   },
   {
-    image: notetakerImg,
+    image: notetaker,
     title: "Note Taker",
     description: "An application that uses...",
     liveLink: "https://note-taker-1x83.onrender.com/",
