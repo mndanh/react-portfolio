@@ -14,6 +14,7 @@ import phoneIcon from '../icons/cell-phone.svg';
 import mailIcon from '../icons/email.svg';
 import linkedinIcon from '../icons/linkedin.svg';
 import liveIcon from '../icons/liveicon.svg';
+import candle from '../icons/candle.svg';
 
 export {
     cssIcon,
@@ -32,4 +33,5 @@ export {
     mailIcon,
     linkedinIcon,
     liveIcon,
+    candle,
   };

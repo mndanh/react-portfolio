@@ -6,7 +6,270 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.contact-section {
+.bgimg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .bgimg-1 {
+    background-image: url("../client/src/assets/pictures/Minneapolis.jpg");
+    min-height: 100%; }
+
+.main-container {
+  display: flex;
+  height: calc(100vh - 70px);
+}
+
+.header {
+  height: 100%;
+  background-color: #0f0e0e;
+  color: #3510d8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+button, .nav {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #181818;
+}
+
+.content-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #202020; 
+  color: #f1f1f1;
+  overflow-y: auto;
+  height: 100%; 
+}
+
+button {
+  background-color: #333;
+  color: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #444; 
+}
+
+input {
+  background-color: #333;
+  color: #f1f1f1;
+  border: 1px solid #555;
+  padding: 10px;
+  width: 100%;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.navbar, .header {
+  background-color: #181717;
+  color: #f1f1f1;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #633030;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #ff6347;
+}
+
+/* Projects Section */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #999090;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  padding: 16px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.2);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin: 12px 0;
+  color: #333;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.project-languages {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.project-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Icons section */
+.icons-section {
+  background-color: rgb(95, 81, 81);
+  padding: 20px 0;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.6);
+}
+
+/* About Section */
+.about-section {
+  padding: 50px 20px;
+  background-color: #3d3232;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.3);
+}
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.about-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.about-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.about-item:hover h3 {
+  color: #007bff;
+}
+
+.about-text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+  color: #eee2e2;
+  padding: 0 10px;
+}
+
+.about-text.active {
+  max-height: 200px;
+  opacity: 1;
+}
+
+.text-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.divider {
+  height: 10px;
+  background-color: #f0f0f0;
+  margin: 0;
+  border: none;
+}
+
+ /* Contact Section */
+ .contact-section {
   padding: 50px 20px;
   background-color: #645959;
   text-align: center;
@@ -82,83 +345,6 @@ body {
   font-size: 1rem;
 }
 
-.about-section {
-  padding: 50px 20px;
-  background-color: #3d3232;
-  text-align: center;
-}
-
-.about-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-}
-
-.about-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-.profile-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.about-details {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 600px;
-}
-
-.about-item {
-  position: relative;
-  cursor: pointer;
-}
-
-.about-item h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  transition: color 0.3s;
-}
-
-.about-item:hover h3 {
-  color: #007bff;
-}
-
-.about-text {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease, opacity 0.5s ease;
-  opacity: 0;
-  color: #eee2e2;
-  padding: 0 10px;
-}
-
-.about-text.active {
-  max-height: 200px;
-  opacity: 1;
-}
-
-.text-container {
-  background-color: black;
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.divider {
-  height: 10px;
-  background-color: #f0f0f0;
-  margin: 0;
-  border: none;
-}
-
 /* ResumePage */
 .resume-page {
   text-align: center;
@@ -185,178 +371,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Projects */
-.projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
-  padding: 20px;
-}
-
-.project-card {
-  background-color: #999090;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  width: 300px;
-  text-align: center;
-  padding: 16px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.project-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-bottom: 1px solid #ddd;
-}
-
-.project-title {
-  font-size: 1.5rem;
-  margin: 12px 0;
-}
-
-.project-description {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 12px;
-}
-
-.project-links {
-  display: flex;
-  justify-content: space-around;
-}
-
-.project-icon {
-  width: 30px;
-  height: 30px;
-  transition: transform 0.2s;
-}
-
-.project-icon:hover {
-  transform: scale(1.2);
-}
-
-/* Icons section */
-.icons-section {
-  background-color: rgb(95, 81, 81);
-  padding: 20px 0;
-}
-
-.icons-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  flex-wrap: wrap;
-}
-
-.icon {
-  width: 50px;
-  height: 50px;
-  fill: gray;
-  transition: fill 0.3s;
-}
-
-.icon:hover {
-  fill: currentColor;
-}
-
-.bgimg {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .bgimg-1 {
-    background-image: url("../client/src/assets/pictures/Minneapolis.jpg");
-    min-height: 100%; }
-
-.main-container {
-  display: flex;
-  height: calc(100vh - 70px);
-}
-
-.header {
-  height: 100%;
-  background-color: #0f0e0e;
-  color: #d81010;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-}
-
-button, .nav {
-  width: 100%;
-}
-
-.form-group {
-  width: 100%;
-}
-
-.app-layout {
-  display: flex;
-  min-height: 100vh;
-  background-color: #181818;
-}
-
-button, .nav {
-  width: 100%;
-}
-
-.content-container {
-  width: 100%;
-  padding: 20px;
-  background-color: #202020; 
-  color: #f1f1f1;
-  overflow-y: auto;
-  height: 100%; 
-}
-
-button {
-  background-color: #333;
-  color: #f1f1f1;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  width: 100%;
-  margin-top: 10px;
-}
-
-button:hover {
-  background-color: #444; 
-}
-
-input {
-  background-color: #333;
-  color: #f1f1f1;
-  border: 1px solid #555;
-  padding: 10px;
-  width: 100%;
-}
-
-input::placeholder {
-  color: #ccc;
-}
-
-.navbar, .header {
-  background-color: #181717;
-  color: #f1f1f1;
-}
-
-.navbar-brand,
-.navbar-nav .nav-link {
-  color: #030202;
-}
-
-.navbar-brand:hover,
-.navbar-nav .nav-link:hover {
-  color: #ff6347;
-}
-
+/* Footer Section */
 .footer {
   background-color: #f8f9fa;
   padding: 20px;

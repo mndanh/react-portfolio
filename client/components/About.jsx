@@ -23,7 +23,7 @@ export default function About() {
             >
               <h3>Background</h3>
               <p className={`about-text ${activeHeading === 'background' ? 'active' : ''}`}>
-                This is where you can write about your background...
+                Driven by a passion for helping customers solve problems. Known for my attention to detail and determination, I thrive on tackling challenges and finding the most effective—not always the easiest—solutions. With a deep admiration for developers and their ability to bring visions to life, I knew a career shift into coding would suit me. As a reliable, people-focused professional, Im excited to continue applying my problem-solving skills in the world of web development.
               </p>
             </div>
             <div
@@ -33,7 +33,7 @@ export default function About() {
             >
               <h3>Why Tech</h3>
               <p className={`about-text ${activeHeading === 'whyTech' ? 'active' : ''}`}>
-                This is where you can explain why you chose a career in tech...
+                After years in tech sales, I found myself captivated by the developers and engineers who could bring ideas to life from the ground up. I realized that while sales was rewarding, it didnt allow me to tap into my true strength—creativity. So, I decided to pivot and pursue a career that could. I recently completed a coding bootcamp at the University of Minnesota, and Im eager to continue growing my skills in the languages and technologies I know, while exploring and getting certified in new ones.
               </p>
             </div>
             <div
@@ -43,7 +43,7 @@ export default function About() {
             >
               <h3>My Skills</h3>
               <p className={`about-text ${activeHeading === 'mySkills' ? 'active' : ''}`}>
-                This is where you can list your skills and what you're good at...
+                My skillset consists of: HTML, CSS, JavaScript, MongoDB, SQL, React, Express, Node.js, Handlebars, JQuery, Bootstrap, TypeScript, and more. I'm eager to learn more, specifically, Angular, Python, AWS, and Microsoft's PowerAutomate platform.
               </p>
             </div>
           </div>
