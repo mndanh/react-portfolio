@@ -1,22 +1,11 @@
-import eastereggs from '../pictures/eastereggs.jpg';
-import backgroundImage from '../pictures/Minneapolis.jpg';
-import notetaker from '../pictures/notetaker.jpg';
-import profileImage from '../pictures/profile.jpg'
-import metamart from '../pictures/metamart.jpg';
-import weather from '../pictures/weather.jpg';
-import mixypixy from '../pictures/mixypixy.jpg';
-import ecommerce from '../pictures/ecommerce.jpg';
-import social from '../pictures/social.jpg';
+export { default as eastereggs } from "../pictures/eastereggs.jpg"
+export { default as backgroundImage } from "../pictures/Minneapolis.jpg"
+export { default as notetaker } from "../pictures/notetaker.jpg"
+export { default as profileImage } from "../pictures/profile.jpg"
+export { default as metamart } from "../pictures/metamart.jpg"
+export { default as weather } from "../pictures/weather.jpg"
+export { default as mixypixy } from "../pictures/mixypixy.jpg"
+export { default as ecommerce } from "../pictures/ecommerce.jpg"
+export { default as social } from "../pictures/social.jpg"
 
-
-export {
-    eastereggs,
-    backgroundImage,
-    notetaker,
-    profileImage,
-    metamart,
-    weather,
-    mixypixy,
-    ecommerce,
-    social,
-};
+ 
