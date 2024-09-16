@@ -23,7 +23,7 @@ export default function About() {
             >
               <h3>Background</h3>
               <p className={`about-text ${activeHeading === 'background' ? 'active' : ''}`}>
-                Driven by a passion for helping customers solve problems. Known for my attention to detail and determination, I thrive on tackling challenges and finding the most effective—not always the easiest—solutions. With a deep admiration for developers and their ability to bring visions to life, I knew a career shift into coding would suit me. As a reliable, people-focused professional, Im excited to continue applying my problem-solving skills in the world of web development.
+                Driven by a passion for helping customers solve problems. Known for my attention to detail and determination, I thrive on tackling challenges and finding the most effective—not always the easiest—solutions. With a deep admiration for developers and their ability to turn concepts into solutions, I knew a career shift into coding would suit me. As a reliable, people-focused professional, Im excited to continue applying my problem-solving skills in the world of web development.
               </p>
             </div>
             <div
@@ -43,7 +43,7 @@ export default function About() {
             >
               <h3>My Skills</h3>
               <p className={`about-text ${activeHeading === 'mySkills' ? 'active' : ''}`}>
-                My skillset consists of: HTML, CSS, JavaScript, MongoDB, SQL, React, Express, Node.js, Handlebars, JQuery, Bootstrap, TypeScript, and more. I'm eager to learn more, specifically, Angular, Python, AWS, and Microsoft's PowerAutomate platform.
+                My skillset consists of: HTML, CSS, JavaScript, MongoDB, SQL, React, Express, Node.js, Handlebars, JQuery, Bootstrap, TypeScript, and more. I'm excited to learn more, specifically: Angular, Python, AWS, and Microsoft's PowerAutomate platform.
               </p>
             </div>
           </div>
