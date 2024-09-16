@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
-import { eastereggs, notetaker, metamart, weather, mixypixy, ecommerce, social } from '../src/assets/pictures';
+import { notetaker, metamart, weather, mixypixy, ecommerce, social } from '../src/assets/pictures';
+import eastereggs from '../src/assets/pictures/eastereggs.jpg'
 import { github2Icon, liveIcon } from '../src/assets/icons';
 
 const projects = [

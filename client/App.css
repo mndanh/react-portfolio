@@ -6,6 +6,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* .navbar-brand:hover, */
+
+.navbar-nav .nav-link:hover {
+  color: #3060ff;
+}
+
 .bgimg {
   background-attachment: fixed;
   background-position: center;
@@ -20,30 +26,6 @@ body {
   height: calc(100vh - 70px);
 }
 
-.header {
-  height: 100%;
-  background-color: #0f0e0e;
-  color: #3510d8;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-}
-
-button, .nav {
-  width: 100%;
-}
-
-.form-group {
-  width: 100%;
-}
-
-.app-layout {
-  display: flex;
-  min-height: 100vh;
-  background-color: #181818;
-}
-
 .content-container {
   width: 100%;
   padding: 20px;
@@ -51,47 +33,6 @@ button, .nav {
   color: #f1f1f1;
   overflow-y: auto;
   height: 100%; 
-}
-
-button {
-  background-color: #333;
-  color: #f1f1f1;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  width: 100%;
-  margin-top: 10px;
-}
-
-button:hover {
-  background-color: #444; 
-}
-
-input {
-  background-color: #333;
-  color: #f1f1f1;
-  border: 1px solid #555;
-  padding: 10px;
-  width: 100%;
-}
-
-input::placeholder {
-  color: #ccc;
-}
-
-.navbar, .header {
-  background-color: #181717;
-  color: #f1f1f1;
-}
-
-.navbar-brand,
-.navbar-nav .nav-link {
-  color: #633030;
-}
-
-.navbar-brand:hover,
-.navbar-nav .nav-link:hover {
-  color: #ff6347;
 }
 
 /* Projects Section */
@@ -406,19 +347,19 @@ button:hover {
   }
 
   .icons-container {
-    justify-content: center; /* Center icons for mobile */
-    gap: 15px; /* Add space between icons */
+    justify-content: center;
+    gap: 15px;
   }
 
   .icon {
-    width: 40px; /* Reduce icon size for smaller screens */
+    width: 40px;
     height: 40px;
   }
 }
 
 @media (max-width: 480px) {
   .icon {
-    width: 30px; /* Further reduce icon size for very small screens */
+    width: 30px;
     height: 30px;
   }
 }

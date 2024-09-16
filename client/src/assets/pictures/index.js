@@ -1,4 +1,4 @@
-import eastereggs from '../pictures/eastereggs.jpg';
+// import eastereggs from '../pictures/eastereggs.jpg';
 import backgroundImage from '../pictures/Minneapolis.jpg';
 import notetaker from '../pictures/notetaker.jpg';
 import profileImage from '../pictures/profile.jpg'
@@ -10,7 +10,7 @@ import social from '../pictures/social.jpg';
 
 
 export {
-    eastereggs,
+    // eastereggs,
     backgroundImage,
     notetaker,
     profileImage,
