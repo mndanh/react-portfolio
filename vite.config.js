@@ -6,12 +6,10 @@ import path from 'path'; // import path
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist'
-  },
-  base: './',
-  resolve: {
-    alias: {
-      '@assets': path.resolve(__dirname, './src/assets'), // Add this alias
+    rollupOptions: {
+      output: {
+        assetFileNames: '[name].[ext]', // Keep original file extensions
+      },
     },
   },
 });
