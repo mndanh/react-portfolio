@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import { pinIcon, phoneIcon, mailIcon } from '../src/assets/icons';
 import '../App.css';
 
@@ -29,6 +30,21 @@ export default function Contact() {
     console.log('Sending email to mndanh@gmail.com...');
         setFormSubmitted(true);
         setFormErrors('');
+
+    const serviceID = 'service_fbpzp2a';
+    const templateID = 'template_sard8m7';
+    const userID = 'UCEJ5cJSUfJRl0DFR'; 
+
+    emailjs.send(serviceID, templateID, formData, userID)
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        setFormSubmitted(true);
+        setFormErrors('');
+      })
+      .catch((err) => {
+        console.error('FAILED...', err);
+        setFormErrors('Failed to send the message. Please try again.');
+      });
     };
 
   return (
