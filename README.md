@@ -30,6 +30,6 @@ If you would like to make an addition to this application, or any others in my G
 
 ## Questions
 
-[Click here to view my project on GitHub](https://github.com/mndanh/social-network)
+[Click here to view my project on GitHub](https://github.com/mndanh)
 
-[Contact me with any questions or input you may have](mndanh@gmail.com)
+Contact me at (<mndanh@gmail.com>)
