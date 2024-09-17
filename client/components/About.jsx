@@ -33,7 +33,7 @@ export default function About() {
             >
               <h3>Why Tech</h3>
               <p className={`about-text ${activeHeading === 'whyTech' ? 'active' : ''}`}>
-                After years in tech sales, I found myself captivated by the developers and engineers who could bring ideas to life from the ground up. I realized that while sales was rewarding, it didnt allow me to tap into my true strength—creativity. So, I decided to pivot and pursue a career that could. I recently completed a coding bootcamp at the University of Minnesota, and Im eager to continue growing my skills in the languages and technologies I know, while exploring and getting certified in new ones.
+                After years in tech sales, I found myself captivated by the developers and engineers who could bring ideas to life from the ground up. I realized that while sales was rewarding, it did not allow me to tap into my true strength—creativity. So, I decided to pivot and pursue a career that could. I recently completed a coding bootcamp at the University of Minnesota, and I am eager to continue growing my skills in the languages and technologies I know, while exploring and getting certified in new ones.
               </p>
             </div>
             <div
