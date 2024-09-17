@@ -23,7 +23,7 @@ const projects = [
   {
     image: social,
     title: "Backend Social Network",
-    description: "A backend database that mimics a social site where users can create a profile, post thoughts, share a reaction on another users posts, and send become 'freinds'.",
+    description: "A backend database that mimics a social site where users can create a profile, post thoughts, share a reaction on another users posts, and request 'friends'.",
     languages: "JavaScript, Express, Node, MongoDB, Postgres",
     liveLink: "https://drive.google.com/file/d/16N5DTv3wkqEb_MlwFrUK70yYxL0N6KE5/view",
     github2Link: "https://github.com/mndanh/social-network"
@@ -31,7 +31,7 @@ const projects = [
   {
     image: weather,
     title: "Weather Dashboard",
-    description: "A weather application where users can search cities around the world for forecast data and leverage recent search's for easier access.",
+    description: "A weather application where users can search cities around the world for forecast data and leverage recent searches for easier access.",
     languages: "JavaScript, HTML, CSS",
     liveLink: "https://mndanh.github.io/weather-dashboard/",
     github2Link: "https://github.com/mndanh/weather-dashboard"

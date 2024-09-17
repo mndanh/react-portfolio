@@ -23,7 +23,7 @@ export default function About() {
             >
               <h3>Background</h3>
               <p className={`about-text ${activeHeading === 'background' ? 'active' : ''}`}>
-                Driven by a passion for helping customers solve problems. Known for my attention to detail and determination, I thrive on tackling challenges and finding the most effective—not always the easiest—solutions. With a deep admiration for developers and their ability to turn concepts into solutions, I knew a career shift into coding would suit me. As a reliable, people-focused professional, Im excited to continue applying my problem-solving skills in the world of web development.
+                Driven by a passion for helping customers solve problems. Known for my attention to detail and determination, I thrive on tackling challenges and finding the most effective—not always the easiest—solutions. With a deep admiration for developers and their ability to turn concepts into solutions, I knew a career shift into coding would suit me. As a reliable, people-focused professional, I am excited to continue applying my problem-solving skills in the world of web development.
               </p>
             </div>
             <div

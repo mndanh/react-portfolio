@@ -190,7 +190,7 @@ body {
 }
 
 .about-text.active {
-  max-height: 200px;
+  max-height: 250px;
   opacity: 1;
 }
 
