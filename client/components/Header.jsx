@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { candle } from "../src/assets/icons";
+import { fly } from "../src/assets/icons";
 
 export default function Header() {
 
@@ -9,7 +9,7 @@ export default function Header() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="/">
-          <img src={candle} alt="Dan's Portfolio" style={{ height: "50px" }} />
+          <img src={fly} alt="Dan's Portfolio" style={{ height: "50px" }} />
           Dan Heer's Project Portfolio
         </Navbar.Brand>
         

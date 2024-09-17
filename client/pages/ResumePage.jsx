@@ -6,7 +6,7 @@ const ResumePage = () => {
       <h1>My Resume</h1>
       <div className="resume-container">
         <iframe 
-            src="https://docs.google.com/document/d/1NJoyU9_vSoiWhFplnI3PD-b19kXgtJ_Q/pub?embedded=true"
+            src="https://docs.google.com/document/d/1eKff0mVj56yKyzZtmpj6T3dvJVFssABh7L7uxPhF858/pub?embedded=true"
             width="100%"
             height="600"
             frameBorder="0"
@@ -14,7 +14,7 @@ const ResumePage = () => {
             allowFullScreen>
         </iframe>
     </div>
-        <a href="https://docs.google.com/document/d/1NJoyU9_vSoiWhFplnI3PD-b19kXgtJ_Q/export?format=pdf" download>
+        <a href="https://docs.google.com/document/d/1eKff0mVj56yKyzZtmpj6T3dvJVFssABh7L7uxPhF858/pub" download>
             <button>Download Resume</button>
         </a>
     </div>
