@@ -9,7 +9,7 @@
     "build": "cd client && npm run build"
   },
   "engines": {
-    "node": "18.17.1"
+    "node": "nvm ls-remote"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
