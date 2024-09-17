@@ -355,6 +355,27 @@ button:hover {
     width: 40px;
     height: 40px;
   }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-details {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .about-text {
+    max-height: none;
+    opacity: 1;
+    padding: 10px;
+  }
+
+  .profile-image {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 @media (max-width: 480px) {
