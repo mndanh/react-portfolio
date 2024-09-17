@@ -9,7 +9,7 @@
     "build": "cd client && npm run build"
   },
   "engines": {
-    "node": "18.x"
+    "node": "18.17.1"
   },
   "dependencies": {
     "cross-env": "^7.0.3",

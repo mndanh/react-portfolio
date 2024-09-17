@@ -3,7 +3,7 @@
   publish = "client/dist"
 
 [context.production.environment]
-  NODE_VERSION = "18.x"
+  NODE_VERSION = "18.17.1"
 
 [[redirects]]
   from = "/*"
