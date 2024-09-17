@@ -19,7 +19,7 @@ export default function Header() {
               <Nav.Link href="/#projects">Projects</Nav.Link>
               <Nav.Link href="/#about">About Me</Nav.Link>
               <Nav.Link href="/#contact">Contact Me</Nav.Link>
-              <Nav.Link href="/ResumePage">Resume</Nav.Link>
+              <Nav.Link href="/resume">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

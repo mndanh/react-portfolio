@@ -13,7 +13,7 @@ export default function App() {
           <div className="content-container">
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/ResumePage" element={<ResumePage />} />
+              <Route path="/resume" element={<ResumePage />} />
 
             
             </Routes>
