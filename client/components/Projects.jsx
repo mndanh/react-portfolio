@@ -23,7 +23,7 @@ const projects = [
   {
     image: social,
     title: "Backend Social Network",
-    description: "A backend database that mimics a social site where users can create a profile, post thoughts, share a reaction on another users posts, and request 'friends'.",
+    description: "A backend database that mimics a social site where users can create a profile, post thoughts, share a reaction on another users posts, and request friends.",
     languages: "JavaScript, Express, Node, MongoDB, Postgres",
     liveLink: "https://drive.google.com/file/d/16N5DTv3wkqEb_MlwFrUK70yYxL0N6KE5/view",
     github2Link: "https://github.com/mndanh/social-network"
@@ -47,7 +47,7 @@ const projects = [
   {
     image: mixypixy,
     title: "Mixy Pixy",
-    description: "A website where users can enter in a type of alcohol and various ingredients and get a list of custom coctails to create from those ingredients.",
+    description: "A website where users can enter in a type of alcohol and various ingredients and get a list of custom cocktails to create from those ingredients.",
     languages: "JavaScript, HTML, CSS",
     liveLink: "https://lothylg.github.io/mixy-pixy/",
     github2Link: "https://github.com/lothylg/mixy-pixy"

@@ -11,14 +11,16 @@ export default function HomePage(){
         className="hero-section"
         style={{
           backgroundImage: `url(${backgroundImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height: '100vh',
-          width: '100vw',
-          margin: '0',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        height: '100vh',
+        width: '100vw',
+        margin: '0',
+        padding: '0',
+        overflow: 'hidden', // Prevents overflow
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
         }}
       >
         <div className="text-container">
