@@ -17,7 +17,7 @@ export default function HomePage(){
         width: '100vw',
         margin: '0',
         padding: '0',
-        overflow: 'hidden', // Prevents overflow
+        overflow: 'hidden',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
