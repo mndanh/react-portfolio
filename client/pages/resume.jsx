@@ -1,5 +1,5 @@
 import React from 'react';
-import { testresume2 } from '../src/assets/pdf'
+import { danheerresume } from '../src/assets/pdf'
 
 const ResumePage = () => {
   return (
@@ -7,7 +7,7 @@ const ResumePage = () => {
       <h1>My Resume</h1>
       <div className="resume-container">
         <div>
-          <a href={testresume2} download>
+          <a href={danheerresume} download>
               <button>Download Resume (PDF)</button>
           </a>
         </div>
