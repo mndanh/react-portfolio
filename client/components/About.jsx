@@ -33,7 +33,7 @@ export default function About() {
             >
               <h3>Why Automation</h3>
               <p className={`about-text ${activeHeading === 'whyTech' ? 'active' : ''}`}>
-                After years in tech sales, I found myself captivated by automation developers and engineers who could bring ideas to life from the ground up. I realized that while sales was rewarding, it did not allow me to tap into my true strength—creativity. So, I decided to pivot and pursue a career that could. I recently completed both a coding bootcamp at the University of Minnesota, and became a certified Microsoft Power Platform Developer having passed the PL-400 exam. I am eager to continue growing my skills in Power Platform and various languages and technologies to help build and scale automation programs.
+                After years in tech sales, working daily with automation developers, I found myself captivated by their ability and vision to bring ideas to life from the ground up. I realized that while sales was rewarding, it did not allow me to tap into my true strength—creativity. So, I decided to pivot and pursue a career that could. I recently completed a full stack coding bootcamp at the University of Minnesota in September 2024. Following that, I became certified in Microsoft's Power Platform, passing the PL-400 certification exam in October 2024. I am eager to continue growing my skills in Power Platform and various languages and technologies to help build and scale automation programs.
               </p>
             </div>
             <div
@@ -43,7 +43,7 @@ export default function About() {
             >
               <h3>My Skills</h3>
               <p className={`about-text ${activeHeading === 'mySkills' ? 'active' : ''}`}>
-                My skillset consists of: Microsoft Power Platform, HTML, CSS, JavaScript, MongoDB, SQL, React, Express, Node.js, Handlebars, JQuery, Bootstrap, TypeScript, and more. I'm excited to learn more, specifically: Angular, Python, AWS, and Microsoft's PowerAutomate platform.
+                My skillset consists of: Microsoft Power Platform, HTML, CSS, JavaScript, MongoDB, SQL, React, Express, Node.js, Handlebars, JQuery, Bootstrap, TypeScript, and more. I'm excited to continue learning, specifically: Azure, PowerBI, Microsoft Fabric, C#, Angular, Python, and AWS.
               </p>
             </div>
           </div>
