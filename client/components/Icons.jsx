@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
-import { cssIcon, expressIcon, github2Icon, handlebarsIcon, mongodbIcon, htmlIcon, javascriptIcon, jqueryIcon, mysqlIcon, nodeIcon, reactIcon } from '../src/assets/icons';
+import { cssIcon, expressIcon, github2Icon, handlebarsIcon, mongodbIcon, htmlIcon, javascriptIcon, jqueryIcon, mysqlIcon, nodeIcon, reactIcon, mpowerplatform } from '../src/assets/icons';
 
 export default function Icons() {
 
   return (
     <section id="icons" className="icons-section">
         <div className="icons-container">
+          <img src={mpowerplatform} alt="PowerPlatform" title="PowerPlatform" className="icon" />
           <img src={htmlIcon} alt="html" title="html" className="icon" />
           <img src={cssIcon} alt="css" title="css" className="icon" />
           <img src={reactIcon} alt="React" className="icon" />

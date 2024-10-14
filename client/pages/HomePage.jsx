@@ -1,5 +1,5 @@
 import React from 'react';
-import { Projects, About, Contact, Icons } from '../components';
+import { Projects, About, Contact, Icons, Certs } from '../components';
 import { backgroundImage } from '../src/assets/pictures';
 import '../App.css';
 
@@ -27,6 +27,12 @@ export default function HomePage(){
           <h1>HELLO, I'M DAN HEER. FULL STACK WEB DEVELOPER</h1>
         </div>
       </div>
+
+      <div className="divider"></div>
+
+      <section id="certs">
+        <Certs />
+      </section>
 
       <div className="divider"></div>
 

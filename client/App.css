@@ -350,6 +350,54 @@ iframe {
   transform: scale(1.1);
 }
 
+/* Certification Section */
+
+.certifications-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom right, rgb(182, 148, 36), rgb(81, 6, 81));
+  padding: 20px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.certification {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.left-cert {
+  background-color: rgb(182, 148, 36) 50%;
+}
+
+.right-cert {
+  background-color: rgb(81, 6, 81) 50%;
+}
+
+.cert-logo1 {
+  max-width: 160px;
+  margin-bottom: 15px;
+}
+
+.cert-logo2 {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+
+.cert-info h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.cert-info p {
+  font-size: 1.2rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .projects-container {
@@ -370,11 +418,23 @@ iframe {
     width: 40px;
     height: 40px;
   }
-}
 
-@media (max-width: 480px) {
-  .icon {
-    width: 30px;
-    height: 30px;
+  .certifications-section {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
   }
+
+  .certification {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .cert-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .cert-info p {
+    font-size: 1rem;
+  }  
 }
