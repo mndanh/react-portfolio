@@ -24,7 +24,7 @@ export default function HomePage(){
         }}
       >
         <div className="text-container">
-          <h1>HELLO, I'M DAN HEER. FULL STACK WEB DEVELOPER</h1>
+          <h1>HELLO, I'M DAN HEER. POWER PLATFORM AND FULL STACK WEB DEVELOPER</h1>
         </div>
       </div>
 
